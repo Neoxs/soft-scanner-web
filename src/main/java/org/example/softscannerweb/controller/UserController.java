@@ -3,6 +3,7 @@ package org.example.softscannerweb.controller;
 import org.example.softscannerweb.SoftScannerWebApplication;
 import org.example.softscannerweb.model.User;
 import org.example.softscannerweb.services.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -17,25 +18,16 @@ import java.util.logging.Logger;
 @CrossOrigin(origins = "*")
 public class UserController {
 
-    private static UserService userService = new UserService();
-    private static Logger UserLogger = Logger.getLogger(UserController.class.getName());
-    private FileHandler fileHandler;
+    private static Logger userLogger = Logger.getLogger(UserController.class.getName());
 
-    public UserController() {
-        try {
-            this.fileHandler = new FileHandler("UserController.log", true);
-            UserLogger.addHandler(this.fileHandler);
-        } catch (SecurityException | IOException e) {
-            UserLogger.severe("Impossible to open FileHandler");
-        }
-    }
+    @Autowired
+    private UserService userService;
 
     @PostMapping("/create")
     public ResponseEntity<User> createUser(@RequestBody User user) {
         try {
             User createdUser = userService.createUserWithDetails(user);
-            SoftScannerWebApplication.setCurrentUser(createdUser);
-            UserLogger.info(String.format("Timestamp: %s, Event: User Creation, User: %s",
+            userLogger.info(String.format("Timestamp: %s, Event: User Creation, User: %s",
                     LocalDateTime.now(), createdUser));
             return new ResponseEntity<>(createdUser, HttpStatus.CREATED);
         } catch (Exception e) {
@@ -47,7 +39,7 @@ public class UserController {
     public ResponseEntity<User> getUser(@PathVariable String id) {
         User user = userService.getUserById(id);
         if (user != null) {
-            UserLogger.info(String.format("Timestamp: %s, Event: User Retrieved, User: %s",
+            userLogger.info(String.format("Timestamp: %s, Event: User Retrieved, User: %s",
                     LocalDateTime.now(), user));
             return new ResponseEntity<>(user, HttpStatus.OK);
         }

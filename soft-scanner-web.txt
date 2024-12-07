@@ -1,0 +1,2095 @@
+
+================================================================================
+File: .gitattributes
+Size: 38 B
+================================================================================
+
+/mvnw text eol=lf
+*.cmd text eol=crlf
+
+
+================================================================================
+File: .gitignore
+Size: 395 B
+================================================================================
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+================================================================================
+File: .mvn/wrapper/maven-wrapper.properties
+Size: 951 B
+================================================================================
+
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+wrapperVersion=3.3.2
+distributionType=only-script
+distributionUrl=https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.9.9/apache-maven-3.9.9-bin.zip
+
+
+================================================================================
+File: ProductController.log
+Size: 13.62 kB
+================================================================================
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-12-07T18:18:50.533789Z</date>
+  <millis>1733595530533</millis>
+  <nanos>789000</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>23</thread>
+  <message>Timestamp: 2024-12-07T19:18:50.533608, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:50.545055Z</date>
+  <millis>1733595530545</millis>
+  <nanos>55000</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:18:50.544984, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:57.893986Z</date>
+  <millis>1733595537893</millis>
+  <nanos>986000</nanos>
+  <sequence>15</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>31</thread>
+  <message>Timestamp: 2024-12-07T19:18:57.893882, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:57.904601Z</date>
+  <millis>1733595537904</millis>
+  <nanos>601000</nanos>
+  <sequence>16</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>22</thread>
+  <message>Timestamp: 2024-12-07T19:18:57.904491, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:00.626873Z</date>
+  <millis>1733595540626</millis>
+  <nanos>873000</nanos>
+  <sequence>19</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>25</thread>
+  <message>Timestamp: 2024-12-07T19:19:00.626774, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:00.633336Z</date>
+  <millis>1733595540633</millis>
+  <nanos>336000</nanos>
+  <sequence>20</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>26</thread>
+  <message>Timestamp: 2024-12-07T19:19:00.633114, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:08.343413Z</date>
+  <millis>1733595548343</millis>
+  <nanos>413000</nanos>
+  <sequence>24</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>23</thread>
+  <message>Timestamp: 2024-12-07T19:19:08.343309, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:08.349547Z</date>
+  <millis>1733595548349</millis>
+  <nanos>547000</nanos>
+  <sequence>25</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:19:08.349406, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:18.611873Z</date>
+  <millis>1733595558611</millis>
+  <nanos>873000</nanos>
+  <sequence>28</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>29</thread>
+  <message>Timestamp: 2024-12-07T19:19:18.611750, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:18.617644Z</date>
+  <millis>1733595558617</millis>
+  <nanos>644000</nanos>
+  <sequence>29</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>30</thread>
+  <message>Timestamp: 2024-12-07T19:19:18.617351, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:23.591552Z</date>
+  <millis>1733595563591</millis>
+  <nanos>552000</nanos>
+  <sequence>32</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:19:23.591445, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:23.595323Z</date>
+  <millis>1733595563595</millis>
+  <nanos>323000</nanos>
+  <sequence>33</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>28</thread>
+  <message>Timestamp: 2024-12-07T19:19:23.595226, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:26.507799Z</date>
+  <millis>1733595566507</millis>
+  <nanos>799000</nanos>
+  <sequence>37</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>22</thread>
+  <message>Timestamp: 2024-12-07T19:19:26.507656, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:26.511129Z</date>
+  <millis>1733595566511</millis>
+  <nanos>129000</nanos>
+  <sequence>38</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>23</thread>
+  <message>Timestamp: 2024-12-07T19:19:26.511042, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:52.746309Z</date>
+  <millis>1733595592746</millis>
+  <nanos>309000</nanos>
+  <sequence>43</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>23</thread>
+  <message>Timestamp: 2024-12-07T19:19:52.746190, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:52.758984Z</date>
+  <millis>1733595592758</millis>
+  <nanos>984000</nanos>
+  <sequence>44</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>25</thread>
+  <message>Timestamp: 2024-12-07T19:19:52.758851, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:22:11.306773Z</date>
+  <millis>1733595731306</millis>
+  <nanos>773000</nanos>
+  <sequence>47</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>29</thread>
+  <message>Timestamp: 2024-12-07T19:22:11.305830, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:22:11.321051Z</date>
+  <millis>1733595731321</millis>
+  <nanos>51000</nanos>
+  <sequence>48</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>30</thread>
+  <message>Timestamp: 2024-12-07T19:22:11.320991, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:22:37.629722Z</date>
+  <millis>1733595757629</millis>
+  <nanos>722000</nanos>
+  <sequence>51</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>31</thread>
+  <message>Timestamp: 2024-12-07T19:22:37.629634, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:22:37.630031Z</date>
+  <millis>1733595757630</millis>
+  <nanos>31000</nanos>
+  <sequence>52</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>30</thread>
+  <message>Timestamp: 2024-12-07T19:22:37.629983, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:10.684534Z</date>
+  <millis>1733596030684</millis>
+  <nanos>534000</nanos>
+  <sequence>57</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>30</thread>
+  <message>Timestamp: 2024-12-07T19:27:10.684438, Event: All Products Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:10.685021Z</date>
+  <millis>1733596030685</millis>
+  <nanos>21000</nanos>
+  <sequence>58</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>22</thread>
+  <message>Timestamp: 2024-12-07T19:27:10.684669, Event: All Products Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:12.479645Z</date>
+  <millis>1733596032479</millis>
+  <nanos>645000</nanos>
+  <sequence>61</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:27:12.479544, Event: All Products Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:12.484310Z</date>
+  <millis>1733596032484</millis>
+  <nanos>310000</nanos>
+  <sequence>62</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>28</thread>
+  <message>Timestamp: 2024-12-07T19:27:12.484216, Event: All Products Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+</log>
+
+
+================================================================================
+File: SoftScannerApplication.log
+Size: 0 B
+================================================================================
+
+
+
+================================================================================
+File: StoreController.log
+Size: 16.38 kB
+================================================================================
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-12-07T18:18:35.913770Z</date>
+  <millis>1733595515913</millis>
+  <nanos>770000</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>28</thread>
+  <message>Timestamp: 2024-12-07T19:18:35.913566, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:35.913770Z</date>
+  <millis>1733595515913</millis>
+  <nanos>770000</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:18:35.913576, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:43.079633Z</date>
+  <millis>1733595523079</millis>
+  <nanos>633000</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>initStore</method>
+  <thread>31</thread>
+  <message>Timestamp: 2024-12-07T19:18:43.079528, Event: Store Initialized, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:54.877138Z</date>
+  <millis>1733595534877</millis>
+  <nanos>138000</nanos>
+  <sequence>13</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:18:54.877019, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:54.882262Z</date>
+  <millis>1733595534882</millis>
+  <nanos>262000</nanos>
+  <sequence>14</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>28</thread>
+  <message>Timestamp: 2024-12-07T19:18:54.882119, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:58.704664Z</date>
+  <millis>1733595538704</millis>
+  <nanos>664000</nanos>
+  <sequence>17</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>23</thread>
+  <message>Timestamp: 2024-12-07T19:18:58.704563, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:58.709519Z</date>
+  <millis>1733595538709</millis>
+  <nanos>519000</nanos>
+  <sequence>18</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:18:58.709419, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:01.694699Z</date>
+  <millis>1733595541694</millis>
+  <nanos>699000</nanos>
+  <sequence>21</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:19:01.694557, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:01.700071Z</date>
+  <millis>1733595541700</millis>
+  <nanos>71000</nanos>
+  <sequence>22</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>28</thread>
+  <message>Timestamp: 2024-12-07T19:19:01.700002, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:02.295045Z</date>
+  <millis>1733595542295</millis>
+  <nanos>45000</nanos>
+  <sequence>23</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>initStore</method>
+  <thread>31</thread>
+  <message>Timestamp: 2024-12-07T19:19:02.294873, Event: Store Initialized, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:08.991903Z</date>
+  <millis>1733595548991</millis>
+  <nanos>903000</nanos>
+  <sequence>26</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>25</thread>
+  <message>Timestamp: 2024-12-07T19:19:08.991502, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:08.995715Z</date>
+  <millis>1733595548995</millis>
+  <nanos>715000</nanos>
+  <sequence>27</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>26</thread>
+  <message>Timestamp: 2024-12-07T19:19:08.995613, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:23.115389Z</date>
+  <millis>1733595563115</millis>
+  <nanos>389000</nanos>
+  <sequence>30</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>25</thread>
+  <message>Timestamp: 2024-12-07T19:19:23.115147, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:23.120638Z</date>
+  <millis>1733595563120</millis>
+  <nanos>638000</nanos>
+  <sequence>31</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>26</thread>
+  <message>Timestamp: 2024-12-07T19:19:23.120573, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:24.242452Z</date>
+  <millis>1733595564242</millis>
+  <nanos>452000</nanos>
+  <sequence>34</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>29</thread>
+  <message>Timestamp: 2024-12-07T19:19:24.242341, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:24.246342Z</date>
+  <millis>1733595564246</millis>
+  <nanos>342000</nanos>
+  <sequence>35</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>29</thread>
+  <message>Timestamp: 2024-12-07T19:19:24.246242, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:24.776341Z</date>
+  <millis>1733595564776</millis>
+  <nanos>341000</nanos>
+  <sequence>36</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>initStore</method>
+  <thread>31</thread>
+  <message>Timestamp: 2024-12-07T19:19:24.776216, Event: Store Initialized, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:33.865934Z</date>
+  <millis>1733595573865</millis>
+  <nanos>934000</nanos>
+  <sequence>39</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>26</thread>
+  <message>Timestamp: 2024-12-07T19:19:33.865770, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:33.871901Z</date>
+  <millis>1733595573871</millis>
+  <nanos>901000</nanos>
+  <sequence>40</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:19:33.871789, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:34.509308Z</date>
+  <millis>1733595574509</millis>
+  <nanos>308000</nanos>
+  <sequence>41</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>initStore</method>
+  <thread>28</thread>
+  <message>Timestamp: 2024-12-07T19:19:34.509158, Event: Store Initialized, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:50.351672Z</date>
+  <millis>1733595590351</millis>
+  <nanos>672000</nanos>
+  <sequence>42</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>initStore</method>
+  <thread>31</thread>
+  <message>Timestamp: 2024-12-07T19:19:50.351118, Event: Store Initialized, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:53.326948Z</date>
+  <millis>1733595593326</millis>
+  <nanos>948000</nanos>
+  <sequence>45</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:19:53.326856, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:53.332156Z</date>
+  <millis>1733595593332</millis>
+  <nanos>156000</nanos>
+  <sequence>46</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:19:53.332062, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:22:36.190921Z</date>
+  <millis>1733595756190</millis>
+  <nanos>921000</nanos>
+  <sequence>49</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:22:36.190658, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:22:36.193352Z</date>
+  <millis>1733595756193</millis>
+  <nanos>352000</nanos>
+  <sequence>50</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:22:36.193251, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:05.894852Z</date>
+  <millis>1733596025894</millis>
+  <nanos>852000</nanos>
+  <sequence>54</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:27:05.894768, Event: Store Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:05.898047Z</date>
+  <millis>1733596025898</millis>
+  <nanos>47000</nanos>
+  <sequence>55</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:27:05.897996, Event: Store Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:07.740200Z</date>
+  <millis>1733596027740</millis>
+  <nanos>200000</nanos>
+  <sequence>56</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>initStore</method>
+  <thread>31</thread>
+  <message>Timestamp: 2024-12-07T19:27:07.739985, Event: Store Initialized, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:11.545854Z</date>
+  <millis>1733596031545</millis>
+  <nanos>854000</nanos>
+  <sequence>59</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>26</thread>
+  <message>Timestamp: 2024-12-07T19:27:11.545737, Event: Store Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:11.549932Z</date>
+  <millis>1733596031549</millis>
+  <nanos>932000</nanos>
+  <sequence>60</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:27:11.549813, Event: Store Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+</log>
+
+
+================================================================================
+File: UserController.log
+Size: 3.23 kB
+================================================================================
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-12-07T18:10:06.490655Z</date>
+  <millis>1733595006490</millis>
+  <nanos>655000</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.softscannerweb.controller.UserController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.UserController</class>
+  <method>createUser</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:10:06.487912, Event: User Creation, User: User [ID=null, Name=Test, Age=24, Email=test@test.com, Password=testpass]</message>
+</record>
+<record>
+  <date>2024-12-07T18:10:16.857118Z</date>
+  <millis>1733595016857</millis>
+  <nanos>118000</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.softscannerweb.controller.UserController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.UserController</class>
+  <method>createUser</method>
+  <thread>30</thread>
+  <message>Timestamp: 2024-12-07T19:10:16.856804, Event: User Creation, User: User [ID=null, Name=Test, Age=24, Email=test@test.com, Password=testpass]</message>
+</record>
+<record>
+  <date>2024-12-07T18:11:22.351242Z</date>
+  <millis>1733595082351</millis>
+  <nanos>242000</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.softscannerweb.controller.UserController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.UserController</class>
+  <method>createUser</method>
+  <thread>23</thread>
+  <message>Timestamp: 2024-12-07T19:11:22.350451, Event: User Creation, User: User [ID=null, Name=Test, Age=24, Email=test@test.com, Password=testpass]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:35.817042Z</date>
+  <millis>1733595515817</millis>
+  <nanos>42000</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.softscannerweb.controller.UserController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.UserController</class>
+  <method>createUser</method>
+  <thread>26</thread>
+  <message>Timestamp: 2024-12-07T19:18:35.815351, Event: User Creation, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:05.796929Z</date>
+  <millis>1733596025796</millis>
+  <nanos>929000</nanos>
+  <sequence>53</sequence>
+  <logger>org.example.softscannerweb.controller.UserController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.UserController</class>
+  <method>createUser</method>
+  <thread>26</thread>
+  <message>Timestamp: 2024-12-07T19:27:05.795110, Event: User Creation, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+</log>
+
+
+================================================================================
+File: mvnw
+Size: 10.67 kB
+================================================================================
+
+#!/bin/sh
+# ----------------------------------------------------------------------------
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+# ----------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------
+# Apache Maven Wrapper startup batch script, version 3.3.2
+#
+# Optional ENV vars
+# -----------------
+#   JAVA_HOME - location of a JDK home dir, required when download maven via java source
+#   MVNW_REPOURL - repo url base for downloading maven distribution
+#   MVNW_USERNAME/MVNW_PASSWORD - user and password for downloading maven
+#   MVNW_VERBOSE - true: enable verbose log; debug: trace the mvnw script; others: silence the output
+# ----------------------------------------------------------------------------
+
+set -euf
+[ "${MVNW_VERBOSE-}" != debug ] || set -x
+
+# OS specific support.
+native_path() { printf %s\\n "$1"; }
+case "$(uname)" in
+CYGWIN* | MINGW*)
+  [ -z "${JAVA_HOME-}" ] || JAVA_HOME="$(cygpath --unix "$JAVA_HOME")"
+  native_path() { cygpath --path --windows "$1"; }
+  ;;
+esac
+
+# set JAVACMD and JAVACCMD
+set_java_home() {
+  # For Cygwin and MinGW, ensure paths are in Unix format before anything is touched
+  if [ -n "${JAVA_HOME-}" ]; then
+    if [ -x "$JAVA_HOME/jre/sh/java" ]; then
+      # IBM's JDK on AIX uses strange locations for the executables
+      JAVACMD="$JAVA_HOME/jre/sh/java"
+      JAVACCMD="$JAVA_HOME/jre/sh/javac"
+    else
+      JAVACMD="$JAVA_HOME/bin/java"
+      JAVACCMD="$JAVA_HOME/bin/javac"
+
+      if [ ! -x "$JAVACMD" ] || [ ! -x "$JAVACCMD" ]; then
+        echo "The JAVA_HOME environment variable is not defined correctly, so mvnw cannot run." >&2
+        echo "JAVA_HOME is set to \"$JAVA_HOME\", but \"\$JAVA_HOME/bin/java\" or \"\$JAVA_HOME/bin/javac\" does not exist." >&2
+        return 1
+      fi
+    fi
+  else
+    JAVACMD="$(
+      'set' +e
+      'unset' -f command 2>/dev/null
+      'command' -v java
+    )" || :
+    JAVACCMD="$(
+      'set' +e
+      'unset' -f command 2>/dev/null
+      'command' -v javac
+    )" || :
+
+    if [ ! -x "${JAVACMD-}" ] || [ ! -x "${JAVACCMD-}" ]; then
+      echo "The java/javac command does not exist in PATH nor is JAVA_HOME set, so mvnw cannot run." >&2
+      return 1
+    fi
+  fi
+}
+
+# hash string like Java String::hashCode
+hash_string() {
+  str="${1:-}" h=0
+  while [ -n "$str" ]; do
+    char="${str%"${str#?}"}"
+    h=$(((h * 31 + $(LC_CTYPE=C printf %d "'$char")) % 4294967296))
+    str="${str#?}"
+  done
+  printf %x\\n $h
+}
+
+verbose() { :; }
+[ "${MVNW_VERBOSE-}" != true ] || verbose() { printf %s\\n "${1-}"; }
+
+die() {
+  printf %s\\n "$1" >&2
+  exit 1
+}
+
+trim() {
+  # MWRAPPER-139:
+  #   Trims trailing and leading whitespace, carriage returns, tabs, and linefeeds.
+  #   Needed for removing poorly interpreted newline sequences when running in more
+  #   exotic environments such as mingw bash on Windows.
+  printf "%s" "${1}" | tr -d '[:space:]'
+}
+
+# parse distributionUrl and optional distributionSha256Sum, requires .mvn/wrapper/maven-wrapper.properties
+while IFS="=" read -r key value; do
+  case "${key-}" in
+  distributionUrl) distributionUrl=$(trim "${value-}") ;;
+  distributionSha256Sum) distributionSha256Sum=$(trim "${value-}") ;;
+  esac
+done <"${0%/*}/.mvn/wrapper/maven-wrapper.properties"
+[ -n "${distributionUrl-}" ] || die "cannot read distributionUrl property in ${0%/*}/.mvn/wrapper/maven-wrapper.properties"
+
+case "${distributionUrl##*/}" in
+maven-mvnd-*bin.*)
+  MVN_CMD=mvnd.sh _MVNW_REPO_PATTERN=/maven/mvnd/
+  case "${PROCESSOR_ARCHITECTURE-}${PROCESSOR_ARCHITEW6432-}:$(uname -a)" in
+  *AMD64:CYGWIN* | *AMD64:MINGW*) distributionPlatform=windows-amd64 ;;
+  :Darwin*x86_64) distributionPlatform=darwin-amd64 ;;
+  :Darwin*arm64) distributionPlatform=darwin-aarch64 ;;
+  :Linux*x86_64*) distributionPlatform=linux-amd64 ;;
+  *)
+    echo "Cannot detect native platform for mvnd on $(uname)-$(uname -m), use pure java version" >&2
+    distributionPlatform=linux-amd64
+    ;;
+  esac
+  distributionUrl="${distributionUrl%-bin.*}-$distributionPlatform.zip"
+  ;;
+maven-mvnd-*) MVN_CMD=mvnd.sh _MVNW_REPO_PATTERN=/maven/mvnd/ ;;
+*) MVN_CMD="mvn${0##*/mvnw}" _MVNW_REPO_PATTERN=/org/apache/maven/ ;;
+esac
+
+# apply MVNW_REPOURL and calculate MAVEN_HOME
+# maven home pattern: ~/.m2/wrapper/dists/{apache-maven-<version>,maven-mvnd-<version>-<platform>}/<hash>
+[ -z "${MVNW_REPOURL-}" ] || distributionUrl="$MVNW_REPOURL$_MVNW_REPO_PATTERN${distributionUrl#*"$_MVNW_REPO_PATTERN"}"
+distributionUrlName="${distributionUrl##*/}"
+distributionUrlNameMain="${distributionUrlName%.*}"
+distributionUrlNameMain="${distributionUrlNameMain%-bin}"
+MAVEN_USER_HOME="${MAVEN_USER_HOME:-${HOME}/.m2}"
+MAVEN_HOME="${MAVEN_USER_HOME}/wrapper/dists/${distributionUrlNameMain-}/$(hash_string "$distributionUrl")"
+
+exec_maven() {
+  unset MVNW_VERBOSE MVNW_USERNAME MVNW_PASSWORD MVNW_REPOURL || :
+  exec "$MAVEN_HOME/bin/$MVN_CMD" "$@" || die "cannot exec $MAVEN_HOME/bin/$MVN_CMD"
+}
+
+if [ -d "$MAVEN_HOME" ]; then
+  verbose "found existing MAVEN_HOME at $MAVEN_HOME"
+  exec_maven "$@"
+fi
+
+case "${distributionUrl-}" in
+*?-bin.zip | *?maven-mvnd-?*-?*.zip) ;;
+*) die "distributionUrl is not valid, must match *-bin.zip or maven-mvnd-*.zip, but found '${distributionUrl-}'" ;;
+esac
+
+# prepare tmp dir
+if TMP_DOWNLOAD_DIR="$(mktemp -d)" && [ -d "$TMP_DOWNLOAD_DIR" ]; then
+  clean() { rm -rf -- "$TMP_DOWNLOAD_DIR"; }
+  trap clean HUP INT TERM EXIT
+else
+  die "cannot create temp dir"
+fi
+
+mkdir -p -- "${MAVEN_HOME%/*}"
+
+# Download and Install Apache Maven
+verbose "Couldn't find MAVEN_HOME, downloading and installing it ..."
+verbose "Downloading from: $distributionUrl"
+verbose "Downloading to: $TMP_DOWNLOAD_DIR/$distributionUrlName"
+
+# select .zip or .tar.gz
+if ! command -v unzip >/dev/null; then
+  distributionUrl="${distributionUrl%.zip}.tar.gz"
+  distributionUrlName="${distributionUrl##*/}"
+fi
+
+# verbose opt
+__MVNW_QUIET_WGET=--quiet __MVNW_QUIET_CURL=--silent __MVNW_QUIET_UNZIP=-q __MVNW_QUIET_TAR=''
+[ "${MVNW_VERBOSE-}" != true ] || __MVNW_QUIET_WGET='' __MVNW_QUIET_CURL='' __MVNW_QUIET_UNZIP='' __MVNW_QUIET_TAR=v
+
+# normalize http auth
+case "${MVNW_PASSWORD:+has-password}" in
+'') MVNW_USERNAME='' MVNW_PASSWORD='' ;;
+has-password) [ -n "${MVNW_USERNAME-}" ] || MVNW_USERNAME='' MVNW_PASSWORD='' ;;
+esac
+
+if [ -z "${MVNW_USERNAME-}" ] && command -v wget >/dev/null; then
+  verbose "Found wget ... using wget"
+  wget ${__MVNW_QUIET_WGET:+"$__MVNW_QUIET_WGET"} "$distributionUrl" -O "$TMP_DOWNLOAD_DIR/$distributionUrlName" || die "wget: Failed to fetch $distributionUrl"
+elif [ -z "${MVNW_USERNAME-}" ] && command -v curl >/dev/null; then
+  verbose "Found curl ... using curl"
+  curl ${__MVNW_QUIET_CURL:+"$__MVNW_QUIET_CURL"} -f -L -o "$TMP_DOWNLOAD_DIR/$distributionUrlName" "$distributionUrl" || die "curl: Failed to fetch $distributionUrl"
+elif set_java_home; then
+  verbose "Falling back to use Java to download"
+  javaSource="$TMP_DOWNLOAD_DIR/Downloader.java"
+  targetZip="$TMP_DOWNLOAD_DIR/$distributionUrlName"
+  cat >"$javaSource" <<-END
+	public class Downloader extends java.net.Authenticator
+	{
+	  protected java.net.PasswordAuthentication getPasswordAuthentication()
+	  {
+	    return new java.net.PasswordAuthentication( System.getenv( "MVNW_USERNAME" ), System.getenv( "MVNW_PASSWORD" ).toCharArray() );
+	  }
+	  public static void main( String[] args ) throws Exception
+	  {
+	    setDefault( new Downloader() );
+	    java.nio.file.Files.copy( java.net.URI.create( args[0] ).toURL().openStream(), java.nio.file.Paths.get( args[1] ).toAbsolutePath().normalize() );
+	  }
+	}
+	END
+  # For Cygwin/MinGW, switch paths to Windows format before running javac and java
+  verbose " - Compiling Downloader.java ..."
+  "$(native_path "$JAVACCMD")" "$(native_path "$javaSource")" || die "Failed to compile Downloader.java"
+  verbose " - Running Downloader.java ..."
+  "$(native_path "$JAVACMD")" -cp "$(native_path "$TMP_DOWNLOAD_DIR")" Downloader "$distributionUrl" "$(native_path "$targetZip")"
+fi
+
+# If specified, validate the SHA-256 sum of the Maven distribution zip file
+if [ -n "${distributionSha256Sum-}" ]; then
+  distributionSha256Result=false
+  if [ "$MVN_CMD" = mvnd.sh ]; then
+    echo "Checksum validation is not supported for maven-mvnd." >&2
+    echo "Please disable validation by removing 'distributionSha256Sum' from your maven-wrapper.properties." >&2
+    exit 1
+  elif command -v sha256sum >/dev/null; then
+    if echo "$distributionSha256Sum  $TMP_DOWNLOAD_DIR/$distributionUrlName" | sha256sum -c >/dev/null 2>&1; then
+      distributionSha256Result=true
+    fi
+  elif command -v shasum >/dev/null; then
+    if echo "$distributionSha256Sum  $TMP_DOWNLOAD_DIR/$distributionUrlName" | shasum -a 256 -c >/dev/null 2>&1; then
+      distributionSha256Result=true
+    fi
+  else
+    echo "Checksum validation was requested but neither 'sha256sum' or 'shasum' are available." >&2
+    echo "Please install either command, or disable validation by removing 'distributionSha256Sum' from your maven-wrapper.properties." >&2
+    exit 1
+  fi
+  if [ $distributionSha256Result = false ]; then
+    echo "Error: Failed to validate Maven distribution SHA-256, your Maven distribution might be compromised." >&2
+    echo "If you updated your Maven version, you need to update the specified distributionSha256Sum property." >&2
+    exit 1
+  fi
+fi
+
+# unzip and move
+if command -v unzip >/dev/null; then
+  unzip ${__MVNW_QUIET_UNZIP:+"$__MVNW_QUIET_UNZIP"} "$TMP_DOWNLOAD_DIR/$distributionUrlName" -d "$TMP_DOWNLOAD_DIR" || die "failed to unzip"
+else
+  tar xzf${__MVNW_QUIET_TAR:+"$__MVNW_QUIET_TAR"} "$TMP_DOWNLOAD_DIR/$distributionUrlName" -C "$TMP_DOWNLOAD_DIR" || die "failed to untar"
+fi
+printf %s\\n "$distributionUrl" >"$TMP_DOWNLOAD_DIR/$distributionUrlNameMain/mvnw.url"
+mv -- "$TMP_DOWNLOAD_DIR/$distributionUrlNameMain" "$MAVEN_HOME" || [ -d "$MAVEN_HOME" ] || die "fail to move MAVEN_HOME"
+
+clean || :
+exec_maven "$@"
+
+
+================================================================================
+File: mvnw.cmd
+Size: 7.06 kB
+================================================================================
+
+<# : batch portion
+@REM ----------------------------------------------------------------------------
+@REM Licensed to the Apache Software Foundation (ASF) under one
+@REM or more contributor license agreements.  See the NOTICE file
+@REM distributed with this work for additional information
+@REM regarding copyright ownership.  The ASF licenses this file
+@REM to you under the Apache License, Version 2.0 (the
+@REM "License"); you may not use this file except in compliance
+@REM with the License.  You may obtain a copy of the License at
+@REM
+@REM    http://www.apache.org/licenses/LICENSE-2.0
+@REM
+@REM Unless required by applicable law or agreed to in writing,
+@REM software distributed under the License is distributed on an
+@REM "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+@REM KIND, either express or implied.  See the License for the
+@REM specific language governing permissions and limitations
+@REM under the License.
+@REM ----------------------------------------------------------------------------
+
+@REM ----------------------------------------------------------------------------
+@REM Apache Maven Wrapper startup batch script, version 3.3.2
+@REM
+@REM Optional ENV vars
+@REM   MVNW_REPOURL - repo url base for downloading maven distribution
+@REM   MVNW_USERNAME/MVNW_PASSWORD - user and password for downloading maven
+@REM   MVNW_VERBOSE - true: enable verbose log; others: silence the output
+@REM ----------------------------------------------------------------------------
+
+@IF "%__MVNW_ARG0_NAME__%"=="" (SET __MVNW_ARG0_NAME__=%~nx0)
+@SET __MVNW_CMD__=
+@SET __MVNW_ERROR__=
+@SET __MVNW_PSMODULEP_SAVE=%PSModulePath%
+@SET PSModulePath=
+@FOR /F "usebackq tokens=1* delims==" %%A IN (`powershell -noprofile "& {$scriptDir='%~dp0'; $script='%__MVNW_ARG0_NAME__%'; icm -ScriptBlock ([Scriptblock]::Create((Get-Content -Raw '%~f0'))) -NoNewScope}"`) DO @(
+  IF "%%A"=="MVN_CMD" (set __MVNW_CMD__=%%B) ELSE IF "%%B"=="" (echo %%A) ELSE (echo %%A=%%B)
+)
+@SET PSModulePath=%__MVNW_PSMODULEP_SAVE%
+@SET __MVNW_PSMODULEP_SAVE=
+@SET __MVNW_ARG0_NAME__=
+@SET MVNW_USERNAME=
+@SET MVNW_PASSWORD=
+@IF NOT "%__MVNW_CMD__%"=="" (%__MVNW_CMD__% %*)
+@echo Cannot start maven from wrapper >&2 && exit /b 1
+@GOTO :EOF
+: end batch / begin powershell #>
+
+$ErrorActionPreference = "Stop"
+if ($env:MVNW_VERBOSE -eq "true") {
+  $VerbosePreference = "Continue"
+}
+
+# calculate distributionUrl, requires .mvn/wrapper/maven-wrapper.properties
+$distributionUrl = (Get-Content -Raw "$scriptDir/.mvn/wrapper/maven-wrapper.properties" | ConvertFrom-StringData).distributionUrl
+if (!$distributionUrl) {
+  Write-Error "cannot read distributionUrl property in $scriptDir/.mvn/wrapper/maven-wrapper.properties"
+}
+
+switch -wildcard -casesensitive ( $($distributionUrl -replace '^.*/','') ) {
+  "maven-mvnd-*" {
+    $USE_MVND = $true
+    $distributionUrl = $distributionUrl -replace '-bin\.[^.]*$',"-windows-amd64.zip"
+    $MVN_CMD = "mvnd.cmd"
+    break
+  }
+  default {
+    $USE_MVND = $false
+    $MVN_CMD = $script -replace '^mvnw','mvn'
+    break
+  }
+}
+
+# apply MVNW_REPOURL and calculate MAVEN_HOME
+# maven home pattern: ~/.m2/wrapper/dists/{apache-maven-<version>,maven-mvnd-<version>-<platform>}/<hash>
+if ($env:MVNW_REPOURL) {
+  $MVNW_REPO_PATTERN = if ($USE_MVND) { "/org/apache/maven/" } else { "/maven/mvnd/" }
+  $distributionUrl = "$env:MVNW_REPOURL$MVNW_REPO_PATTERN$($distributionUrl -replace '^.*'+$MVNW_REPO_PATTERN,'')"
+}
+$distributionUrlName = $distributionUrl -replace '^.*/',''
+$distributionUrlNameMain = $distributionUrlName -replace '\.[^.]*$','' -replace '-bin$',''
+$MAVEN_HOME_PARENT = "$HOME/.m2/wrapper/dists/$distributionUrlNameMain"
+if ($env:MAVEN_USER_HOME) {
+  $MAVEN_HOME_PARENT = "$env:MAVEN_USER_HOME/wrapper/dists/$distributionUrlNameMain"
+}
+$MAVEN_HOME_NAME = ([System.Security.Cryptography.MD5]::Create().ComputeHash([byte[]][char[]]$distributionUrl) | ForEach-Object {$_.ToString("x2")}) -join ''
+$MAVEN_HOME = "$MAVEN_HOME_PARENT/$MAVEN_HOME_NAME"
+
+if (Test-Path -Path "$MAVEN_HOME" -PathType Container) {
+  Write-Verbose "found existing MAVEN_HOME at $MAVEN_HOME"
+  Write-Output "MVN_CMD=$MAVEN_HOME/bin/$MVN_CMD"
+  exit $?
+}
+
+if (! $distributionUrlNameMain -or ($distributionUrlName -eq $distributionUrlNameMain)) {
+  Write-Error "distributionUrl is not valid, must end with *-bin.zip, but found $distributionUrl"
+}
+
+# prepare tmp dir
+$TMP_DOWNLOAD_DIR_HOLDER = New-TemporaryFile
+$TMP_DOWNLOAD_DIR = New-Item -Itemtype Directory -Path "$TMP_DOWNLOAD_DIR_HOLDER.dir"
+$TMP_DOWNLOAD_DIR_HOLDER.Delete() | Out-Null
+trap {
+  if ($TMP_DOWNLOAD_DIR.Exists) {
+    try { Remove-Item $TMP_DOWNLOAD_DIR -Recurse -Force | Out-Null }
+    catch { Write-Warning "Cannot remove $TMP_DOWNLOAD_DIR" }
+  }
+}
+
+New-Item -Itemtype Directory -Path "$MAVEN_HOME_PARENT" -Force | Out-Null
+
+# Download and Install Apache Maven
+Write-Verbose "Couldn't find MAVEN_HOME, downloading and installing it ..."
+Write-Verbose "Downloading from: $distributionUrl"
+Write-Verbose "Downloading to: $TMP_DOWNLOAD_DIR/$distributionUrlName"
+
+$webclient = New-Object System.Net.WebClient
+if ($env:MVNW_USERNAME -and $env:MVNW_PASSWORD) {
+  $webclient.Credentials = New-Object System.Net.NetworkCredential($env:MVNW_USERNAME, $env:MVNW_PASSWORD)
+}
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+$webclient.DownloadFile($distributionUrl, "$TMP_DOWNLOAD_DIR/$distributionUrlName") | Out-Null
+
+# If specified, validate the SHA-256 sum of the Maven distribution zip file
+$distributionSha256Sum = (Get-Content -Raw "$scriptDir/.mvn/wrapper/maven-wrapper.properties" | ConvertFrom-StringData).distributionSha256Sum
+if ($distributionSha256Sum) {
+  if ($USE_MVND) {
+    Write-Error "Checksum validation is not supported for maven-mvnd. `nPlease disable validation by removing 'distributionSha256Sum' from your maven-wrapper.properties."
+  }
+  Import-Module $PSHOME\Modules\Microsoft.PowerShell.Utility -Function Get-FileHash
+  if ((Get-FileHash "$TMP_DOWNLOAD_DIR/$distributionUrlName" -Algorithm SHA256).Hash.ToLower() -ne $distributionSha256Sum) {
+    Write-Error "Error: Failed to validate Maven distribution SHA-256, your Maven distribution might be compromised. If you updated your Maven version, you need to update the specified distributionSha256Sum property."
+  }
+}
+
+# unzip and move
+Expand-Archive "$TMP_DOWNLOAD_DIR/$distributionUrlName" -DestinationPath "$TMP_DOWNLOAD_DIR" | Out-Null
+Rename-Item -Path "$TMP_DOWNLOAD_DIR/$distributionUrlNameMain" -NewName $MAVEN_HOME_NAME | Out-Null
+try {
+  Move-Item -Path "$TMP_DOWNLOAD_DIR/$MAVEN_HOME_NAME" -Destination $MAVEN_HOME_PARENT | Out-Null
+} catch {
+  if (! (Test-Path -Path "$MAVEN_HOME" -PathType Container)) {
+    Write-Error "fail to move MAVEN_HOME"
+  }
+} finally {
+  try { Remove-Item $TMP_DOWNLOAD_DIR -Recurse -Force | Out-Null }
+  catch { Write-Warning "Cannot remove $TMP_DOWNLOAD_DIR" }
+}
+
+Write-Output "MVN_CMD=$MAVEN_HOME/bin/$MVN_CMD"
+
+
+================================================================================
+File: pom.xml
+Size: 3.58 kB
+================================================================================
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.4.0</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>org.example</groupId>
+    <artifactId>soft-scanner-web</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>soft-scanner-web</name>
+    <description>soft-scanner-web</description>
+    <url/>
+    <licenses>
+        <license/>
+    </licenses>
+    <developers>
+        <developer/>
+    </developers>
+    <scm>
+        <connection/>
+        <developerConnection/>
+        <tag/>
+        <url/>
+    </scm>
+    <properties>
+        <java.version>17</java.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-rest</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <excludes>
+                        <exclude>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                        </exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
+
+
+================================================================================
+File: src/main/java/org/example/softscannerweb/SoftScannerWebApplication.java
+Size: 1.25 kB
+================================================================================
+
+package org.example.softscannerweb;
+
+import org.example.softscannerweb.model.User;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.io.IOException;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
+
+@SpringBootApplication
+public class SoftScannerWebApplication {
+    private static Logger LOGGER = Logger.getLogger(SoftScannerWebApplication.class.getName());
+    private static FileHandler fh;
+    private static User currentUser = new User();
+
+    static {
+        try {
+            fh = new FileHandler("SoftScannerApplication.log", true);
+            LOGGER.addHandler(fh);
+            fh.setFormatter(new SimpleFormatter());
+            LOGGER.setLevel(Level.INFO);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+        LOGGER.addHandler(fh);
+        SpringApplication.run(SoftScannerWebApplication.class, args);
+    }
+
+    public static User getCurrentUser() {
+        return currentUser;
+    }
+
+    public static void setCurrentUser(User user) {
+        currentUser = user;
+    }
+}
+
+
+================================================================================
+File: src/main/java/org/example/softscannerweb/controller/ProductController.java
+Size: 4.45 kB
+================================================================================
+
+package org.example.softscannerweb.controller;
+
+import org.example.softscannerweb.SoftScannerWebApplication;
+import org.example.softscannerweb.exception.ProductAlreadyExistsException;
+import org.example.softscannerweb.exception.ProductNotFoundException;
+import org.example.softscannerweb.model.Product;
+import org.example.softscannerweb.model.Store;
+import org.example.softscannerweb.services.ProductService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.io.IOException;
+import java.time.LocalDateTime;
+import java.util.List;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
+
+@RestController
+@RequestMapping("/api/product")
+@CrossOrigin(origins = "*")
+public class ProductController {
+
+    private static ProductService productService = new ProductService();
+    private static Logger productLogger = Logger.getLogger(ProductController.class.getName());
+    private FileHandler fileHandler;
+
+    public ProductController() {
+        try {
+            this.fileHandler = new FileHandler("ProductController.log", true);
+            productLogger.addHandler(this.fileHandler);
+        } catch (SecurityException | IOException e) {
+            productLogger.severe("Error initializing FileHandler");
+        }
+    }
+
+    @PostMapping("/create")
+    public ResponseEntity<Product> createProduct(@RequestBody Product product) {
+        Store store = new Store();
+        try {
+            Product createdProduct = productService.createProductWithDetails(store, product);
+            productLogger.info(String.format("Timestamp: %s, Event: Product Creation, User: %s, Product: %s",
+                    LocalDateTime.now(), SoftScannerWebApplication.getCurrentUser(), createdProduct));
+            return new ResponseEntity<>(createdProduct, HttpStatus.CREATED);
+        } catch (ProductAlreadyExistsException e) {
+            return new ResponseEntity<>(HttpStatus.CONFLICT);
+        }
+    }
+
+    @GetMapping("/get/{id}")
+    public ResponseEntity<Product> getProduct(@PathVariable String id) {
+        Store store = new Store();
+        try {
+            Product product = productService.getProductById(store, id);
+            productLogger.info(String.format("Timestamp: %s, Event: Product Retrieval, User: %s, Product: %s",
+                    LocalDateTime.now(), SoftScannerWebApplication.getCurrentUser(), product));
+            return new ResponseEntity<>(product, HttpStatus.OK);
+        } catch (ProductNotFoundException e) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    @GetMapping("/all")
+    public ResponseEntity<List<Product>> getAllProducts() {
+        Store store = new Store();
+        productService.initializeDefaultProducts(store);
+        List<Product> products = store.getProducts();
+        productLogger.info(String.format("Timestamp: %s, Event: All Products Retrieved, User: %s",
+                LocalDateTime.now(), SoftScannerWebApplication.getCurrentUser()));
+        return new ResponseEntity<>(products, HttpStatus.OK);
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<Void> deleteProduct(@PathVariable String id) {
+        Store store = new Store();
+        try {
+            productService.deleteProductById(store, id);
+            productLogger.info(String.format("Timestamp: %s, Event: Product Deletion, User: %s, ProductID: %s",
+                    LocalDateTime.now(), SoftScannerWebApplication.getCurrentUser(), id));
+            return new ResponseEntity<>(HttpStatus.OK);
+        } catch (ProductNotFoundException e) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    @PutMapping("/update/{id}")
+    public ResponseEntity<Product> updateProduct(@PathVariable String id, @RequestBody Product product) {
+        Store store = new Store();
+        try {
+            Product updatedProduct = productService.updateProductWithDetails(store, id, product);
+            productLogger.info(String.format("Timestamp: %s, Event: Product Update, User: %s, Product: %s",
+                    LocalDateTime.now(), SoftScannerWebApplication.getCurrentUser(), updatedProduct));
+            return new ResponseEntity<>(updatedProduct, HttpStatus.OK);
+        } catch (ProductNotFoundException | ProductAlreadyExistsException e) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+}
+
+================================================================================
+File: src/main/java/org/example/softscannerweb/controller/StoreController.java
+Size: 1.87 kB
+================================================================================
+
+package org.example.softscannerweb.controller;
+
+
+import org.example.softscannerweb.SoftScannerWebApplication;
+import org.example.softscannerweb.model.Store;
+import org.example.softscannerweb.services.StoreService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.io.IOException;
+import java.time.LocalDateTime;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
+
+@RestController
+@RequestMapping("/api/store")
+@CrossOrigin(origins = "*")
+public class StoreController {
+
+    private static StoreService storeService = new StoreService();
+    private static Logger StoreLogger = Logger.getLogger(StoreController.class.getName());
+    private FileHandler fileHandler;
+
+    public StoreController() {
+        try {
+            this.fileHandler = new FileHandler("StoreController.log", true);
+            StoreLogger.addHandler(this.fileHandler);
+        } catch (SecurityException | IOException e) {
+            StoreLogger.severe("Impossible to open FileHandler");
+        }
+    }
+
+    @GetMapping("/get")
+    public ResponseEntity<Store> getStore() {
+        Store store = new Store();
+        storeService.getStore(store);
+        StoreLogger.info(String.format("Timestamp: %s, Event: Store Retrieved, User: %s",
+                LocalDateTime.now(), SoftScannerWebApplication.getCurrentUser()));
+        return new ResponseEntity<>(store, HttpStatus.OK);
+    }
+
+    @PostMapping("/init")
+    public ResponseEntity<Store> initStore() {
+        Store store = new Store();
+        storeService.initStore(store);
+        StoreLogger.info(String.format("Timestamp: %s, Event: Store Initialized, User: %s",
+                LocalDateTime.now(), SoftScannerWebApplication.getCurrentUser()));
+        return new ResponseEntity<>(store, HttpStatus.OK);
+    }
+}
+
+================================================================================
+File: src/main/java/org/example/softscannerweb/controller/UserController.java
+Size: 2.13 kB
+================================================================================
+
+package org.example.softscannerweb.controller;
+
+import org.example.softscannerweb.SoftScannerWebApplication;
+import org.example.softscannerweb.model.User;
+import org.example.softscannerweb.services.UserService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.io.IOException;
+import java.time.LocalDateTime;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
+
+@RestController
+@RequestMapping("/api/user")
+@CrossOrigin(origins = "*")
+public class UserController {
+
+    private static UserService userService = new UserService();
+    private static Logger UserLogger = Logger.getLogger(UserController.class.getName());
+    private FileHandler fileHandler;
+
+    public UserController() {
+        try {
+            this.fileHandler = new FileHandler("UserController.log", true);
+            UserLogger.addHandler(this.fileHandler);
+        } catch (SecurityException | IOException e) {
+            UserLogger.severe("Impossible to open FileHandler");
+        }
+    }
+
+    @PostMapping("/create")
+    public ResponseEntity<User> createUser(@RequestBody User user) {
+        try {
+            User createdUser = userService.createUserWithDetails(user);
+            SoftScannerWebApplication.setCurrentUser(createdUser);
+            UserLogger.info(String.format("Timestamp: %s, Event: User Creation, User: %s",
+                    LocalDateTime.now(), createdUser));
+            return new ResponseEntity<>(createdUser, HttpStatus.CREATED);
+        } catch (Exception e) {
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+        }
+    }
+
+    @GetMapping("/get/{id}")
+    public ResponseEntity<User> getUser(@PathVariable String id) {
+        User user = userService.getUserById(id);
+        if (user != null) {
+            UserLogger.info(String.format("Timestamp: %s, Event: User Retrieved, User: %s",
+                    LocalDateTime.now(), user));
+            return new ResponseEntity<>(user, HttpStatus.OK);
+        }
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    }
+}
+
+================================================================================
+File: src/main/java/org/example/softscannerweb/exception/ProductAlreadyExistsException.java
+Size: 202 B
+================================================================================
+
+package org.example.softscannerweb.exception;
+
+public class ProductAlreadyExistsException extends Exception {
+    public ProductAlreadyExistsException(String message) {
+        super(message);
+    }
+}
+
+
+
+================================================================================
+File: src/main/java/org/example/softscannerweb/exception/ProductNotFoundException.java
+Size: 190 B
+================================================================================
+
+package org.example.softscannerweb.exception;
+
+public class ProductNotFoundException extends Exception {
+    public ProductNotFoundException(String message) {
+        super(message);
+    }
+}
+
+================================================================================
+File: src/main/java/org/example/softscannerweb/model/Product.java
+Size: 687 B
+================================================================================
+
+package org.example.softscannerweb.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "products")
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+public class Product {
+    @Id
+    private String ID;
+    private String name;
+    private String price;
+    private String expirationDate;
+
+    @Override
+    public String toString() {
+        return "Product [ID=" + ID + ", Name=" + name + ", Price=" + price +
+                ", Expiration Date=" + expirationDate + "]";
+    }
+}
+
+
+================================================================================
+File: src/main/java/org/example/softscannerweb/model/Store.java
+Size: 705 B
+================================================================================
+
+package org.example.softscannerweb.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Document(collection = "stores")
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+public class Store {
+    @Id
+    private String ID;
+    @DBRef
+    private List<Product> products = new ArrayList<>();
+
+    @Override
+    public String toString() {
+        return "Store [ID=" + ID + ", Products=" + products + "]";
+    }
+}
+
+
+================================================================================
+File: src/main/java/org/example/softscannerweb/model/User.java
+Size: 699 B
+================================================================================
+
+package org.example.softscannerweb.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "users")
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+public class User {
+    @Id
+    private String ID;
+    private String name;
+    private String age;
+    private String email;
+    private String password;
+
+    @Override
+    public String toString() {
+        return "User [ID=" + ID + ", Name=" + name + ", Age=" + age +
+                ", Email=" + email + ", Password=" + password + "]";
+    }
+}
+
+================================================================================
+File: src/main/java/org/example/softscannerweb/repository/ProductRepository.java
+Size: 245 B
+================================================================================
+
+package org.example.softscannerweb.repository;
+
+import org.example.softscannerweb.model.Product;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface ProductRepository extends MongoRepository<Product, String> {
+}
+
+================================================================================
+File: src/main/java/org/example/softscannerweb/repository/StoreRepository.java
+Size: 276 B
+================================================================================
+
+package org.example.softscannerweb.repository;
+
+import org.example.softscannerweb.model.Store;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface StoreRepository extends MongoRepository<Store, String> {
+    Store findFirstByOrderByIdAsc();
+}
+
+================================================================================
+File: src/main/java/org/example/softscannerweb/repository/UserRepository.java
+Size: 272 B
+================================================================================
+
+package org.example.softscannerweb.repository;
+
+import org.example.softscannerweb.model.User;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface UserRepository extends MongoRepository<User, String> {
+    User findByEmail(String email);
+}
+
+================================================================================
+File: src/main/java/org/example/softscannerweb/services/ProductService.java
+Size: 2.04 kB
+================================================================================
+
+package org.example.softscannerweb.services;
+
+import org.example.softscannerweb.exception.ProductAlreadyExistsException;
+import org.example.softscannerweb.exception.ProductNotFoundException;
+import org.example.softscannerweb.model.Product;
+import org.example.softscannerweb.repository.ProductRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class ProductService {
+
+    @Autowired
+    private ProductRepository productRepository;
+    @Autowired
+    private StoreService storeService;
+
+    public Product createProductWithDetails(Product product) throws ProductAlreadyExistsException {
+        if (productRepository.existsById(product.getID())) {
+            throw new ProductAlreadyExistsException("Product with ID " + product.getID() + " already exists");
+        }
+        Product savedProduct = productRepository.save(product);
+        storeService.addProductToStore(savedProduct);
+        return savedProduct;
+    }
+
+    public Product updateProductWithDetails(String id, Product product)
+            throws ProductNotFoundException {
+        if (!productRepository.existsById(id)) {
+            throw new ProductNotFoundException("Product with ID " + id + " not found");
+        }
+        product.setID(id);
+        return productRepository.save(product);
+    }
+
+    public void deleteProductById(String id) throws ProductNotFoundException {
+        if (!productRepository.existsById(id)) {
+            throw new ProductNotFoundException("Product with ID " + id + " not found");
+        }
+        productRepository.deleteById(id);
+        storeService.removeProductFromStore(id);
+    }
+
+    public Product getProductById(String id) throws ProductNotFoundException {
+        return productRepository.findById(id)
+                .orElseThrow(() -> new ProductNotFoundException("Product with ID " + id + " not found"));
+    }
+
+    public List<Product> getAllProducts() {
+        return productRepository.findAll();
+    }
+}
+
+================================================================================
+File: src/main/java/org/example/softscannerweb/services/StoreService.java
+Size: 2.87 kB
+================================================================================
+
+package org.example.softscannerweb.services;
+
+
+import jakarta.annotation.PostConstruct;
+import org.example.softscannerweb.exception.ProductAlreadyExistsException;
+import org.example.softscannerweb.exception.ProductNotFoundException;
+import org.example.softscannerweb.model.Product;
+import org.example.softscannerweb.model.Store;
+import org.example.softscannerweb.repository.ProductRepository;
+import org.example.softscannerweb.repository.StoreRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Service
+public class StoreService {
+
+    @Autowired
+    private StoreRepository storeRepository;
+    @Autowired
+    private ProductRepository productRepository;
+
+    @PostConstruct
+    public void init() {
+        if (getStore() == null) {
+            Store store = new Store();
+            store.setID("main-store");
+            store.setProducts(new ArrayList<>());
+            storeRepository.save(store);
+        }
+    }
+
+    public Store getStore() {
+        return storeRepository.findFirstByOrderByIdAsc();
+    }
+
+    public void initStore() {
+        Store store = getStore();
+        if (store == null) {
+            store = new Store();
+            store.setID("main-store");
+            store.setProducts(new ArrayList<>());
+        }
+
+        // Clear existing products
+        productRepository.deleteAll();
+        store.getProducts().clear();
+
+        // Create new sample products
+        try {
+            addSampleProducts(store);
+        } catch (ProductAlreadyExistsException e) {
+            e.printStackTrace();
+        }
+
+        storeRepository.save(store);
+    }
+
+    private void addSampleProducts(Store store) throws ProductAlreadyExistsException {
+        Product[] products = {
+                new Product("101", "Smartwatch Pro X1 Series", "299", "12/31/24"),
+                new Product("102", "Wireless Earbuds Elite", "159", "None"),
+                new Product("103", "Portable Power Bank 20000mAh", "49", "06/15/25"),
+                new Product("104", "Bluetooth Speaker Waterproof", "89", "None"),
+                new Product("105", "HD Webcam 1080p", "79", "None")
+        };
+
+        for (Product product : products) {
+            Product savedProduct = productRepository.save(product);
+            store.getProducts().add(savedProduct);
+        }
+    }
+
+    public void addProductToStore(Product product) {
+        Store store = getStore();
+        if (!store.getProducts().contains(product)) {
+            store.getProducts().add(product);
+            storeRepository.save(store);
+        }
+    }
+
+    public void removeProductFromStore(String productId) {
+        Store store = getStore();
+        store.getProducts().removeIf(p -> p.getID().equals(productId));
+        storeRepository.save(store);
+    }
+}
+
+================================================================================
+File: src/main/java/org/example/softscannerweb/services/UserService.java
+Size: 1.16 kB
+================================================================================
+
+package org.example.softscannerweb.services;
+
+import org.example.softscannerweb.model.User;
+import org.example.softscannerweb.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.Optional;
+
+@Service
+public class UserService {
+
+    @Autowired
+    private UserRepository userRepository;
+
+    public User createUserWithDetails(User user) {
+        return userRepository.save(user);
+    }
+
+    public User getUserById(String id) {
+        Optional<User> user = userRepository.findById(id);
+        return user.orElse(null);
+    }
+
+    public User getUserByEmail(String email) {
+        return userRepository.findByEmail(email);
+    }
+
+    public boolean deleteUser(String id) {
+        if (userRepository.existsById(id)) {
+            userRepository.deleteById(id);
+            return true;
+        }
+        return false;
+    }
+
+    public User updateUser(String id, User updatedUser) {
+        if (userRepository.existsById(id)) {
+            updatedUser.setID(id);
+            return userRepository.save(updatedUser);
+        }
+        return null;
+    }
+}
+
+================================================================================
+File: src/main/resources/application.properties
+Size: 164 B
+================================================================================
+
+spring.application.name=soft-scanner-web
+server.port=8080
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=softscanner
+
+================================================================================
+File: src/test/java/org/example/softscannerweb/SoftScannerWebApplicationTests.java
+Size: 235 B
+================================================================================
+
+package org.example.softscannerweb;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SoftScannerWebApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
+
