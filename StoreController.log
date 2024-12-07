@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-12-07T18:18:35.913770Z</date>
+  <millis>1733595515913</millis>
+  <nanos>770000</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>28</thread>
+  <message>Timestamp: 2024-12-07T19:18:35.913566, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:35.913770Z</date>
+  <millis>1733595515913</millis>
+  <nanos>770000</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:18:35.913576, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:43.079633Z</date>
+  <millis>1733595523079</millis>
+  <nanos>633000</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>initStore</method>
+  <thread>31</thread>
+  <message>Timestamp: 2024-12-07T19:18:43.079528, Event: Store Initialized, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:54.877138Z</date>
+  <millis>1733595534877</millis>
+  <nanos>138000</nanos>
+  <sequence>13</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:18:54.877019, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:54.882262Z</date>
+  <millis>1733595534882</millis>
+  <nanos>262000</nanos>
+  <sequence>14</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>28</thread>
+  <message>Timestamp: 2024-12-07T19:18:54.882119, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:58.704664Z</date>
+  <millis>1733595538704</millis>
+  <nanos>664000</nanos>
+  <sequence>17</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>23</thread>
+  <message>Timestamp: 2024-12-07T19:18:58.704563, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:58.709519Z</date>
+  <millis>1733595538709</millis>
+  <nanos>519000</nanos>
+  <sequence>18</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:18:58.709419, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:01.694699Z</date>
+  <millis>1733595541694</millis>
+  <nanos>699000</nanos>
+  <sequence>21</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:19:01.694557, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:01.700071Z</date>
+  <millis>1733595541700</millis>
+  <nanos>71000</nanos>
+  <sequence>22</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>28</thread>
+  <message>Timestamp: 2024-12-07T19:19:01.700002, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:02.295045Z</date>
+  <millis>1733595542295</millis>
+  <nanos>45000</nanos>
+  <sequence>23</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>initStore</method>
+  <thread>31</thread>
+  <message>Timestamp: 2024-12-07T19:19:02.294873, Event: Store Initialized, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:08.991903Z</date>
+  <millis>1733595548991</millis>
+  <nanos>903000</nanos>
+  <sequence>26</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>25</thread>
+  <message>Timestamp: 2024-12-07T19:19:08.991502, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:08.995715Z</date>
+  <millis>1733595548995</millis>
+  <nanos>715000</nanos>
+  <sequence>27</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>26</thread>
+  <message>Timestamp: 2024-12-07T19:19:08.995613, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:23.115389Z</date>
+  <millis>1733595563115</millis>
+  <nanos>389000</nanos>
+  <sequence>30</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>25</thread>
+  <message>Timestamp: 2024-12-07T19:19:23.115147, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:23.120638Z</date>
+  <millis>1733595563120</millis>
+  <nanos>638000</nanos>
+  <sequence>31</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>26</thread>
+  <message>Timestamp: 2024-12-07T19:19:23.120573, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:24.242452Z</date>
+  <millis>1733595564242</millis>
+  <nanos>452000</nanos>
+  <sequence>34</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>29</thread>
+  <message>Timestamp: 2024-12-07T19:19:24.242341, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:24.246342Z</date>
+  <millis>1733595564246</millis>
+  <nanos>342000</nanos>
+  <sequence>35</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>29</thread>
+  <message>Timestamp: 2024-12-07T19:19:24.246242, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:24.776341Z</date>
+  <millis>1733595564776</millis>
+  <nanos>341000</nanos>
+  <sequence>36</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>initStore</method>
+  <thread>31</thread>
+  <message>Timestamp: 2024-12-07T19:19:24.776216, Event: Store Initialized, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:33.865934Z</date>
+  <millis>1733595573865</millis>
+  <nanos>934000</nanos>
+  <sequence>39</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>26</thread>
+  <message>Timestamp: 2024-12-07T19:19:33.865770, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:33.871901Z</date>
+  <millis>1733595573871</millis>
+  <nanos>901000</nanos>
+  <sequence>40</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:19:33.871789, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:34.509308Z</date>
+  <millis>1733595574509</millis>
+  <nanos>308000</nanos>
+  <sequence>41</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>initStore</method>
+  <thread>28</thread>
+  <message>Timestamp: 2024-12-07T19:19:34.509158, Event: Store Initialized, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:50.351672Z</date>
+  <millis>1733595590351</millis>
+  <nanos>672000</nanos>
+  <sequence>42</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>initStore</method>
+  <thread>31</thread>
+  <message>Timestamp: 2024-12-07T19:19:50.351118, Event: Store Initialized, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:53.326948Z</date>
+  <millis>1733595593326</millis>
+  <nanos>948000</nanos>
+  <sequence>45</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:19:53.326856, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:53.332156Z</date>
+  <millis>1733595593332</millis>
+  <nanos>156000</nanos>
+  <sequence>46</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:19:53.332062, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:22:36.190921Z</date>
+  <millis>1733595756190</millis>
+  <nanos>921000</nanos>
+  <sequence>49</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:22:36.190658, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:22:36.193352Z</date>
+  <millis>1733595756193</millis>
+  <nanos>352000</nanos>
+  <sequence>50</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:22:36.193251, Event: Store Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:05.894852Z</date>
+  <millis>1733596025894</millis>
+  <nanos>852000</nanos>
+  <sequence>54</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:27:05.894768, Event: Store Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:05.898047Z</date>
+  <millis>1733596025898</millis>
+  <nanos>47000</nanos>
+  <sequence>55</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:27:05.897996, Event: Store Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:07.740200Z</date>
+  <millis>1733596027740</millis>
+  <nanos>200000</nanos>
+  <sequence>56</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>initStore</method>
+  <thread>31</thread>
+  <message>Timestamp: 2024-12-07T19:27:07.739985, Event: Store Initialized, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:11.545854Z</date>
+  <millis>1733596031545</millis>
+  <nanos>854000</nanos>
+  <sequence>59</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>26</thread>
+  <message>Timestamp: 2024-12-07T19:27:11.545737, Event: Store Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:11.549932Z</date>
+  <millis>1733596031549</millis>
+  <nanos>932000</nanos>
+  <sequence>60</sequence>
+  <logger>org.example.softscannerweb.controller.StoreController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.StoreController</class>
+  <method>getStore</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:27:11.549813, Event: Store Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+</log>

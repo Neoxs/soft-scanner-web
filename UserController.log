@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-12-07T18:10:06.490655Z</date>
+  <millis>1733595006490</millis>
+  <nanos>655000</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.softscannerweb.controller.UserController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.UserController</class>
+  <method>createUser</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:10:06.487912, Event: User Creation, User: User [ID=null, Name=Test, Age=24, Email=test@test.com, Password=testpass]</message>
+</record>
+<record>
+  <date>2024-12-07T18:10:16.857118Z</date>
+  <millis>1733595016857</millis>
+  <nanos>118000</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.softscannerweb.controller.UserController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.UserController</class>
+  <method>createUser</method>
+  <thread>30</thread>
+  <message>Timestamp: 2024-12-07T19:10:16.856804, Event: User Creation, User: User [ID=null, Name=Test, Age=24, Email=test@test.com, Password=testpass]</message>
+</record>
+<record>
+  <date>2024-12-07T18:11:22.351242Z</date>
+  <millis>1733595082351</millis>
+  <nanos>242000</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.softscannerweb.controller.UserController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.UserController</class>
+  <method>createUser</method>
+  <thread>23</thread>
+  <message>Timestamp: 2024-12-07T19:11:22.350451, Event: User Creation, User: User [ID=null, Name=Test, Age=24, Email=test@test.com, Password=testpass]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:35.817042Z</date>
+  <millis>1733595515817</millis>
+  <nanos>42000</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.softscannerweb.controller.UserController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.UserController</class>
+  <method>createUser</method>
+  <thread>26</thread>
+  <message>Timestamp: 2024-12-07T19:18:35.815351, Event: User Creation, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:05.796929Z</date>
+  <millis>1733596025796</millis>
+  <nanos>929000</nanos>
+  <sequence>53</sequence>
+  <logger>org.example.softscannerweb.controller.UserController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.UserController</class>
+  <method>createUser</method>
+  <thread>26</thread>
+  <message>Timestamp: 2024-12-07T19:27:05.795110, Event: User Creation, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+</log>

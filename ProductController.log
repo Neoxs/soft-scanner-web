@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-12-07T18:18:50.533789Z</date>
+  <millis>1733595530533</millis>
+  <nanos>789000</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>23</thread>
+  <message>Timestamp: 2024-12-07T19:18:50.533608, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:50.545055Z</date>
+  <millis>1733595530545</millis>
+  <nanos>55000</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:18:50.544984, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:57.893986Z</date>
+  <millis>1733595537893</millis>
+  <nanos>986000</nanos>
+  <sequence>15</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>31</thread>
+  <message>Timestamp: 2024-12-07T19:18:57.893882, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:18:57.904601Z</date>
+  <millis>1733595537904</millis>
+  <nanos>601000</nanos>
+  <sequence>16</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>22</thread>
+  <message>Timestamp: 2024-12-07T19:18:57.904491, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:00.626873Z</date>
+  <millis>1733595540626</millis>
+  <nanos>873000</nanos>
+  <sequence>19</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>25</thread>
+  <message>Timestamp: 2024-12-07T19:19:00.626774, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:00.633336Z</date>
+  <millis>1733595540633</millis>
+  <nanos>336000</nanos>
+  <sequence>20</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>26</thread>
+  <message>Timestamp: 2024-12-07T19:19:00.633114, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:08.343413Z</date>
+  <millis>1733595548343</millis>
+  <nanos>413000</nanos>
+  <sequence>24</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>23</thread>
+  <message>Timestamp: 2024-12-07T19:19:08.343309, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:08.349547Z</date>
+  <millis>1733595548349</millis>
+  <nanos>547000</nanos>
+  <sequence>25</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:19:08.349406, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:18.611873Z</date>
+  <millis>1733595558611</millis>
+  <nanos>873000</nanos>
+  <sequence>28</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>29</thread>
+  <message>Timestamp: 2024-12-07T19:19:18.611750, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:18.617644Z</date>
+  <millis>1733595558617</millis>
+  <nanos>644000</nanos>
+  <sequence>29</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>30</thread>
+  <message>Timestamp: 2024-12-07T19:19:18.617351, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:23.591552Z</date>
+  <millis>1733595563591</millis>
+  <nanos>552000</nanos>
+  <sequence>32</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>27</thread>
+  <message>Timestamp: 2024-12-07T19:19:23.591445, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:23.595323Z</date>
+  <millis>1733595563595</millis>
+  <nanos>323000</nanos>
+  <sequence>33</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>28</thread>
+  <message>Timestamp: 2024-12-07T19:19:23.595226, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:26.507799Z</date>
+  <millis>1733595566507</millis>
+  <nanos>799000</nanos>
+  <sequence>37</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>22</thread>
+  <message>Timestamp: 2024-12-07T19:19:26.507656, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:26.511129Z</date>
+  <millis>1733595566511</millis>
+  <nanos>129000</nanos>
+  <sequence>38</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>23</thread>
+  <message>Timestamp: 2024-12-07T19:19:26.511042, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:52.746309Z</date>
+  <millis>1733595592746</millis>
+  <nanos>309000</nanos>
+  <sequence>43</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>23</thread>
+  <message>Timestamp: 2024-12-07T19:19:52.746190, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:19:52.758984Z</date>
+  <millis>1733595592758</millis>
+  <nanos>984000</nanos>
+  <sequence>44</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>25</thread>
+  <message>Timestamp: 2024-12-07T19:19:52.758851, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:22:11.306773Z</date>
+  <millis>1733595731306</millis>
+  <nanos>773000</nanos>
+  <sequence>47</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>29</thread>
+  <message>Timestamp: 2024-12-07T19:22:11.305830, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:22:11.321051Z</date>
+  <millis>1733595731321</millis>
+  <nanos>51000</nanos>
+  <sequence>48</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>30</thread>
+  <message>Timestamp: 2024-12-07T19:22:11.320991, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:22:37.629722Z</date>
+  <millis>1733595757629</millis>
+  <nanos>722000</nanos>
+  <sequence>51</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>31</thread>
+  <message>Timestamp: 2024-12-07T19:22:37.629634, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:22:37.630031Z</date>
+  <millis>1733595757630</millis>
+  <nanos>31000</nanos>
+  <sequence>52</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>30</thread>
+  <message>Timestamp: 2024-12-07T19:22:37.629983, Event: All Products Retrieved, User: User [ID=null, Name=yassine, Age=20, Email=test@test.com, Password=12340]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:10.684534Z</date>
+  <millis>1733596030684</millis>
+  <nanos>534000</nanos>
+  <sequence>57</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>30</thread>
+  <message>Timestamp: 2024-12-07T19:27:10.684438, Event: All Products Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:10.685021Z</date>
+  <millis>1733596030685</millis>
+  <nanos>21000</nanos>
+  <sequence>58</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>22</thread>
+  <message>Timestamp: 2024-12-07T19:27:10.684669, Event: All Products Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:12.479645Z</date>
+  <millis>1733596032479</millis>
+  <nanos>645000</nanos>
+  <sequence>61</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>24</thread>
+  <message>Timestamp: 2024-12-07T19:27:12.479544, Event: All Products Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+<record>
+  <date>2024-12-07T18:27:12.484310Z</date>
+  <millis>1733596032484</millis>
+  <nanos>310000</nanos>
+  <sequence>62</sequence>
+  <logger>org.example.softscannerweb.controller.ProductController</logger>
+  <level>INFO</level>
+  <class>org.example.softscannerweb.controller.ProductController</class>
+  <method>getAllProducts</method>
+  <thread>28</thread>
+  <message>Timestamp: 2024-12-07T19:27:12.484216, Event: All Products Retrieved, User: User [ID=null, Name=test, Age=24, Email=test@test.com, Password=1234567]</message>
+</record>
+</log>
