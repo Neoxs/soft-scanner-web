@@ -26,7 +26,7 @@ public class StoreService {
     public void init() {
         if (getStore() == null) {
             Store store = new Store();
-            store.setID("main-store");
+            store.setId("main-store");
             store.setProducts(new ArrayList<>());
             storeRepository.save(store);
         }
@@ -40,7 +40,7 @@ public class StoreService {
         Store store = getStore();
         if (store == null) {
             store = new Store();
-            store.setID("main-store");
+            store.setId("main-store");
             store.setProducts(new ArrayList<>());
         }
 
@@ -83,7 +83,7 @@ public class StoreService {
 
     public void removeProductFromStore(String productId) {
         Store store = getStore();
-        store.getProducts().removeIf(p -> p.getID().equals(productId));
+        store.getProducts().removeIf(p -> p.getId().equals(productId));
         storeRepository.save(store);
     }
 }

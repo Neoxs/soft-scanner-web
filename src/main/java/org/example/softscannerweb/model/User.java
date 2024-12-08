@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
 
 @Document(collection = "users")
 @AllArgsConstructor
@@ -14,7 +15,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Setter
 public class User {
     @Id
-    private String ID;
+    @Field("_id") 
+    private String id;
     private String name;
     private String age;
     private String email;
@@ -22,7 +24,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User [ID=" + ID + ", Name=" + name + ", Age=" + age +
+        return "User [ID=" + id + ", Name=" + name + ", Age=" + age +
                 ", Email=" + email + ", Password=" + password + "]";
     }
 }

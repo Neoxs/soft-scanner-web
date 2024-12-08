@@ -3,6 +3,7 @@ package org.example.softscannerweb;
 import org.example.softscannerweb.model.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 import java.io.IOException;
 import java.util.logging.FileHandler;
@@ -10,11 +11,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
+
 @SpringBootApplication
 public class SoftScannerWebApplication {
     private static Logger LOGGER = Logger.getLogger(SoftScannerWebApplication.class.getName());
     private static FileHandler fh;
-    private static User currentUser = new User();
 
     static {
         try {
@@ -30,13 +31,5 @@ public class SoftScannerWebApplication {
     public static void main(String[] args) {
         LOGGER.addHandler(fh);
         SpringApplication.run(SoftScannerWebApplication.class, args);
-    }
-
-    public static User getCurrentUser() {
-        return currentUser;
-    }
-
-    public static void setCurrentUser(User user) {
-        currentUser = user;
     }
 }

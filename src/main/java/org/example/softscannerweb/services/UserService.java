@@ -1,5 +1,6 @@
 package org.example.softscannerweb.services;
 
+import org.example.softscannerweb.exception.UserAlreadyExistsException;
 import org.example.softscannerweb.model.User;
 import org.example.softscannerweb.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +14,10 @@ public class UserService {
     @Autowired
     private UserRepository userRepository;
 
-    public User createUserWithDetails(User user) {
+    public User createUserWithDetails(User user) throws UserAlreadyExistsException {
+        if (userRepository.existsByEmail(user.getEmail())) {
+            throw new UserAlreadyExistsException("User with email " + user.getEmail() + " already exists");
+        }
         return userRepository.save(user);
     }
 
@@ -36,7 +40,7 @@ public class UserService {
 
     public User updateUser(String id, User updatedUser) {
         if (userRepository.existsById(id)) {
-            updatedUser.setID(id);
+            updatedUser.setId(id);
             return userRepository.save(updatedUser);
         }
         return null;

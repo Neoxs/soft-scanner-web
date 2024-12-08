@@ -18,8 +18,8 @@ public class ProductService {
     private StoreService storeService;
 
     public Product createProductWithDetails(Product product) throws ProductAlreadyExistsException {
-        if (productRepository.existsById(product.getID())) {
-            throw new ProductAlreadyExistsException("Product with ID " + product.getID() + " already exists");
+        if (productRepository.existsById(product.getId())) {
+            throw new ProductAlreadyExistsException("Product with ID " + product.getId() + " already exists");
         }
         Product savedProduct = productRepository.save(product);
         storeService.addProductToStore(savedProduct);
@@ -31,7 +31,7 @@ public class ProductService {
         if (!productRepository.existsById(id)) {
             throw new ProductNotFoundException("Product with ID " + id + " not found");
         }
-        product.setID(id);
+        product.setId(id);
         return productRepository.save(product);
     }
 

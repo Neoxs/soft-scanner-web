@@ -1,6 +1,7 @@
 package org.example.softscannerweb.controller;
 
 import org.example.softscannerweb.SoftScannerWebApplication;
+import org.example.softscannerweb.exception.UserAlreadyExistsException;
 import org.example.softscannerweb.model.User;
 import org.example.softscannerweb.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +11,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 
@@ -24,14 +27,20 @@ public class UserController {
     private UserService userService;
 
     @PostMapping("/create")
-    public ResponseEntity<User> createUser(@RequestBody User user) {
+    public ResponseEntity<?> createUser(@RequestBody User user) {
         try {
             User createdUser = userService.createUserWithDetails(user);
             userLogger.info(String.format("Timestamp: %s, Event: User Creation, User: %s",
                     LocalDateTime.now(), createdUser));
             return new ResponseEntity<>(createdUser, HttpStatus.CREATED);
+        } catch (UserAlreadyExistsException e) {
+            Map<String, String> response = new HashMap<>();
+            response.put("error", e.getMessage());
+            return new ResponseEntity<>(response, HttpStatus.CONFLICT);
         } catch (Exception e) {
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            Map<String, String> response = new HashMap<>();
+            response.put("error", "An error occurred while creating the user");
+            return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
         }
     }
 

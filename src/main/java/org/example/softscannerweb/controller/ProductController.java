@@ -1,20 +1,16 @@
 package org.example.softscannerweb.controller;
 
-import org.example.softscannerweb.SoftScannerWebApplication;
 import org.example.softscannerweb.exception.ProductAlreadyExistsException;
 import org.example.softscannerweb.exception.ProductNotFoundException;
 import org.example.softscannerweb.model.Product;
-import org.example.softscannerweb.model.Store;
 import org.example.softscannerweb.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 
 
@@ -33,7 +29,7 @@ public class ProductController {
         try {
             Product createdProduct = productService.createProductWithDetails(product);
             productLogger.info(String.format("Timestamp: %s, Event: Product Creation, User: %s, Product: %s",
-                    LocalDateTime.now(), createdProduct.getID(), createdProduct));
+                    LocalDateTime.now(), createdProduct.getId(), createdProduct));
             return new ResponseEntity<>(createdProduct, HttpStatus.CREATED);
         } catch (ProductAlreadyExistsException e) {
             return new ResponseEntity<>(HttpStatus.CONFLICT);
@@ -79,7 +75,7 @@ public class ProductController {
             productLogger.info(String.format("Timestamp: %s, Event: Product Update, User: %s, Product: %s",
                     LocalDateTime.now(), id, updatedProduct));
             return new ResponseEntity<>(updatedProduct, HttpStatus.OK);
-        } catch (ProductNotFoundException | ProductAlreadyExistsException e) {
+        } catch (ProductNotFoundException e) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }

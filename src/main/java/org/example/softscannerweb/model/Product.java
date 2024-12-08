@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
 
 @Document(collection = "products")
 @AllArgsConstructor
@@ -14,14 +15,15 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Setter
 public class Product {
     @Id
-    private String ID;
+    @Field("_id") 
+    private String id;
     private String name;
     private String price;
     private String expirationDate;
 
     @Override
     public String toString() {
-        return "Product [ID=" + ID + ", Name=" + name + ", Price=" + price +
+        return "Product [ID=" + id + ", Name=" + name + ", Price=" + price +
                 ", Expiration Date=" + expirationDate + "]";
     }
 }
